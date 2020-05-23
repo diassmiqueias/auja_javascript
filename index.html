@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Primeira Página</title>
+   
+    <link rel="stylesheet" href="css/pri.css">
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body onload="load()">
+
+    <div >
+        <h1>Página</h1>
+
+        <button type="button" onclick="botao()">Clica</button>
+        <p id="agd" onclick="redirecionar()"></p>
+        <p id="mouse" onmouseover="trocar(this)" onmouseout="voltar(this)"> mause</p>
+        <p onmouseover="trocar(this)" onmouseout="voltar(this)"> mause2</p>
+
+        <select onchange="changefu(this)">
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+        </select>
+
+        <textarea id="novinho"></input>
+
+    </div>
+
+</body>
+</html>
